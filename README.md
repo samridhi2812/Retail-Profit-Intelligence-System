@@ -36,7 +36,7 @@ This project answers key business questions such as:
 ## Tools & Technologies
 
 * **SQL (MySQL)** – Data extraction, transformation, aggregation, and business analysis
-* **Python (Pandas, NumPy, Matplotlib, Seaborn)** – Data cleaning, exploratory data analysis (EDA), and visualization
+* **Python (Pandas, NumPy)** – Data cleaning, exploratory data analysis (EDA)
 * **Power BI** – Interactive dashboard development and KPI reporting
 * **Git & GitHub** – Version control and project documentation
 
@@ -73,14 +73,14 @@ The project uses a retail sales dataset containing approximately **10,000+ trans
 
 ## Key Performance Indicators (KPIs)
 
-* Total Revenue
+* Total Sales
 * Total Profit
 * Profit Margin
 * Total Orders
 * Average Order Value
 * Quantity Sold
-* Regional Performance
-* Category Performance
+* Total Products
+* Profitable Products
 
 ---
 
@@ -113,7 +113,6 @@ Using Python, the following analyses were performed:
 * Correlation Analysis
 * Trend Analysis
 * Category & Regional Performance
-* Data Visualizations
 
 ---
 
@@ -167,36 +166,6 @@ Some of the insights generated include:
 
 ---
 
-## Project Structure
-
-```
-Retail-Profit-Intelligence-System/
-│
-├── Dataset/
-│   └── Retail_Dataset.csv
-│
-├── SQL/
-│   ├── Data_Cleaning.sql
-│   ├── Business_Queries.sql
-│   └── KPI_Analysis.sql
-│
-├── Python/
-│   ├── Retail_EDA.ipynb
-│   └── retail_analysis.py
-│
-├── PowerBI/
-│   └── Retail_Profit_Dashboard.pbix
-│
-├── Images/
-│   ├── Dashboard_Overview.png
-│   ├── Product_Analysis.png
-│   └── Regional_Analysis.png
-│
-└── README.md
-```
-
----
-
 ## Skills Demonstrated
 
 * SQL
@@ -204,8 +173,6 @@ Retail-Profit-Intelligence-System/
 * Python
 * Pandas
 * NumPy
-* Matplotlib
-* Seaborn
 * Power BI
 * Data Cleaning
 * Exploratory Data Analysis
@@ -220,7 +187,6 @@ Retail-Profit-Intelligence-System/
 ## Future Enhancements
 
 * Sales Forecasting using Time Series Analysis
-* Customer Segmentation (RFM Analysis)
 * Profit Prediction using Machine Learning
 * Automated Dashboard Refresh
 * Inventory Optimization Analysis
